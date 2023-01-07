@@ -1,4 +1,4 @@
-package til.java.basic;
+package til.java.basic.variable;
 
 public class TypeCasting {
     public static void main(java.lang.String[] args) {

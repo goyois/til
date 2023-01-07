@@ -1,4 +1,4 @@
-package til.java.basic;
+package til.java.basic.string;
 
 import java.util.Locale;
 
@@ -29,11 +29,16 @@ public class StringClass {
          * 단순 == 연산자를 사용할경우 참조변수이기때문에 서로의 주소값을 확인하므로 서로 다름
           */
 
+
+
         System.out.println("----------------------------");
         System.out.println("다양한 String Class Method");
 
-        //해당 문자열의 특정 인덱스에 해당하는 문자 반환함,만약 해당 문자열의 길이보다 큰 인덱스나 음수를 전달하면 오류
+
         // #1
+        /** .charAt()
+         * 해당 문자열의 특정 인덱스에 해당하는 문자 반환함,만약 해당 문자열의 길이보다 큰 인덱스나 음수를 전달하면 오류
+         */
         String str1 = new String("세로드립");
         System.out.println("문자열 : " + str1);
 
@@ -43,7 +48,7 @@ public class StringClass {
         System.out.println(str1.charAt(3));
 
         // #2
-        /**
+        /**  compareTo()
          * 문자열을 인수로 전달된 문자열과 사전 편찬 순,대소문자를 구분하여 비교
          * == -> 0 / 반환 문자열이 인수로 전달된 문자열보다 작으면 음수 / 크면 양수 반환
          */
@@ -58,7 +63,7 @@ public class StringClass {
         System.out.println("----------------------------");
 
         // #3
-        /**
+        /**  concat()
          * 해당 문자열의 뒤에 인수로 전달된 문자열을 추가한 새로운 문자열을 반환
          * concat은 concatenate의 약자로 연결한다의 의미하며 만약 인수로 전달된 문자열의 길이가 0이면 문자열 그대로 뱉어냄
          */
@@ -70,8 +75,7 @@ public class StringClass {
         System.out.println("----------------------------");
 
         // #4
-
-        /**
+        /**  indexOf()
          * 해당 문자열에서 특정 문자나 문자열이 처음으로 등장하는 위치의 인덱스를 반환
          * 만약 문자열에 전달된 문자나 문자열이 포함되이 있지 않으면 -1 반환
          */
@@ -83,8 +87,7 @@ public class StringClass {
         System.out.println("----------------------------");
 
         // #5
-
-        /**
+        /**  trim()
          * 해당 문자열의 맨 앞과 맨 뒤에 포함된 모든 공백 문자를 제거
          * 띄어쓰기와 탭 문자 제거 메서드
          */
@@ -95,8 +98,7 @@ public class StringClass {
         System.out.println("----------------------------");
 
         // #6
-
-        /**
+        /**  toLoworCase() / toUpperCase()
          * toLoworCase() 해당 문자열의 모든 문자를 소문자로 변환/ toUpperCase() 대문자로 변환
          */
 
