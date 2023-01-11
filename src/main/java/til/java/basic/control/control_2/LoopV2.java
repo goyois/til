@@ -1,6 +1,6 @@
 package til.java.basic.control.control_2;
 
-public class ControlFlowStatementsV2 {
+public class LoopV2 {
     public static void main(String[] args) {
 
 

@@ -27,8 +27,8 @@ public class TypeCasting {
         System.out.println("<advanced>");
         System.out.println("String(문자열) -> int(정수형)");
 
-        java.lang.String height = "180";
-        java.lang.String weight = "70";
+        String height = "180";
+        String weight = "70";
 
         int userHeight = Integer.parseInt(height);  //변환할 문자열을 Integer.parseInt 메서드의 매개변수로 넣어줌
         int userWeight = Integer.parseInt(weight);
@@ -42,8 +42,8 @@ public class TypeCasting {
         int headSize = 30;
         int hairLength = 20;
 
-        java.lang.String userHeadSize = Integer.toString(headSize);  //변환할 정수를 Integer.toString 메서드의 매개변수로 넣어줌
-        java.lang.String userHairLength = Integer.toString(hairLength);
+        String userHeadSize = Integer.toString(headSize);  //변환할 정수를 Integer.toString 메서드의 매개변수로 넣어줌
+        String userHairLength = Integer.toString(hairLength);
 
         System.out.println(headSize);  //넣어준 매개변수가 메서드를 통해 변환되어 출력됨
         System.out.println(hairLength);

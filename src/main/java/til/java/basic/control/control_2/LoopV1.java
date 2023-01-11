@@ -1,6 +1,6 @@
 package til.java.basic.control.control_2;
 
-public class ControlFlowStatementsV1 {
+public class LoopV1 {
     public static void main(String[] args) {
 
         /**
@@ -25,6 +25,7 @@ public class ControlFlowStatementsV1 {
         //while문
         int i = 0;  //변수 초기화
         int sum1 = 0;  //변수 초기화
+
         while (i <= 3) {  //변수 i 가 10보다 작을때까지, 3과 같다면 종료되는 조건
             sum1 += i;  // sum1이라는 변수는 i가 위의 조건에 따라 반복되는 동안 계속 더해짐 0(초기화) -> 1(0 +1) -> 3(1 +2) -> 3(3 +3)
             i++;  //(+1)
