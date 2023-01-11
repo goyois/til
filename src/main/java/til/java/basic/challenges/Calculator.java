@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("첫번째 숫자를 입력하세요.");
@@ -34,5 +33,6 @@ public class Calculator {
             System.out.println("입력값을 확인해주세요");
         }
         System.out.println(inputValue1 + op + inputValue2 + "=" + num3);
+
     }
 }
