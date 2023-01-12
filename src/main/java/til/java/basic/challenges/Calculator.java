@@ -33,6 +33,5 @@ public class Calculator {
             System.out.println("입력값을 확인해주세요");
         }
         System.out.println(inputValue1 + op + inputValue2 + "=" + num3);
-
     }
 }

@@ -11,14 +11,14 @@ public class DimensionOfArray2 {
         int[] scores = {1,1,1,1,1};
 
 
-
         //for문
         int sum1 = 0;  //합계를 담을 변수 sum1 선언
-        for (int i = 0; i <scores.length ; i++) {  // i값이 배열의 길이(5)보다 작을때까지 반복
+        for (int i = 0; i < scores.length; i++) {  // i값이 배열의 길이(5)보다 작을때까지 반복
              sum1 += scores[i];  //반복되는동안 sum1 이라는 변수에 scores 배열의 원소가 하나씩 더하며 sum1에 누적됨! 1+2+3+4+5
         }
         System.out.println(sum1); // = 5
 
+        System.out.println("--------------------");
 
         //while문
         int sum2 = 0;  //합계를 담을 변수 sum2 선언
@@ -29,28 +29,33 @@ public class DimensionOfArray2 {
         }
         System.out.println(sum2); // = 5
 
+        System.out.println("--------------------");
 
         //향상된 for문
         int sum3 = 0;  //합계를 담을 변수 sum3 선언
 
-        for (int score : scores) {  //score라는 값에 scores 안에 있는 원소값을 순차적으로 담는다.
-            sum3 += score;  //순차적으로 반복하며 넘어가는동안 score값은 받은만큼 1 씩 증가되어 누적됨
+        for (int score : scores) {  //score 라는 값에 scores 안에 있는 원소값을 순차적으로 담는다.
+            sum3 += score;  //순차적으로 반복하며 넘어가는동안 score 값은 받은만큼 1 씩 증가되어 누적됨
         }
         System.out.println(sum3); // = 5
 
+        System.out.println("--------------------");
 
         //for문을 통해 배열 값 수정하기
-        for (int k = 0; k < scores.length; k++) {
-            scores[k] = 0;
+        for (int k = 0; k < scores.length; k++) {  // k가 배열의 길이보다 작을때까지 반복
+            scores[k] = 0;  //  k = 반복회차  반복회차의 정수를 scores[] 안에 넣어주어 인덱스값을 판별할 수 있게함
         }
         System.out.println(Arrays.toString(scores));
 
+        System.out.println("--------------------");
         //while을 사용하여 배열 값 1로 바꾸기
         int s = 0;
         while (s < scores.length) {
-            scores[s++] = 1;
+            scores[s++] = 2;  // s = 반복회차 scores[] s를 넣어준뒤 ++를 통해 1 추가
         }
         System.out.println(Arrays.toString(scores));
+
+        System.out.println("--------------------");
 
 
         //향상된 for문은 불가함 xxx

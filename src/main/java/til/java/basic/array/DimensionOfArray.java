@@ -17,12 +17,13 @@ public class DimensionOfArray {
         // double 형 값을 저장할 수 있는 31개의 배열 생성되며
         //대입 연산자 (=)에 의해 생성된 배열 첫번째 요소의 주소값이 참조 변수 temperatureOfJuly 에 할당됨
         double[] temperatureOfJuly = new double[3];
-        System.out.println(temperatureOfJuly);  //주수값 할당
+        System.out.println(temperatureOfJuly);  //주소값 할당
 
 
         double[] temp = new double[]{1.1,2.2,3.3,4.4,5.5};  //실제 값 할당
 
         double[] temper = {1.1,2.2,3.3,4.4,5.5};  //선언과 함께 초기화
+
 
         System.out.println(temper.length); // 배열의 길이
         System.out.println(temper[3]);  // 특정 값 + 주소값 접근
@@ -42,7 +43,15 @@ public class DimensionOfArray {
         int[][] kcal = {
                 {1111,1112,3333},
                 {1117} };
-        System.out.println(Arrays.stream(kcal).count()); //배열 갯수
+        System.out.println(Arrays.stream(kcal).count()); //배열 갯수 =2
+
+        int[][] kcal2 = {
+                {2222, 2222, 2222, 2222},
+                {2222, 1111, 111, 1},
+                {32,3213,323,333},
+                {1,1,1,1,1,1}
+        };
+        System.out.println(Arrays.toString(kcal2));
 
 
         /**
@@ -66,6 +75,8 @@ public class DimensionOfArray {
         System.out.println(Arrays.toString(ages[2]));
         System.out.println(Arrays.toString(ages[3]));
         System.out.println(Arrays.toString(ages[4]));
+
+        System.out.println("--------------------");
 
         //생성과 동시에 초기화
         int[][] arr = {
