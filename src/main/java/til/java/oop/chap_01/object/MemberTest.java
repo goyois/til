@@ -1,4 +1,4 @@
-package til.java.oop.chap_01;
+package til.java.oop.chap_01.object;
 
 public class MemberTest {
     public static void main(String[] args) {

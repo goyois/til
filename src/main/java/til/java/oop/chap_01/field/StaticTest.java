@@ -1,4 +1,4 @@
-package til.java.oop.chap_02;
+package til.java.oop.chap_01.field;
 
 public class StaticTest {
     public static void main(String[] args) {

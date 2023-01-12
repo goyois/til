@@ -1,4 +1,4 @@
-package til.java.oop.chap_01;
+package til.java.oop.chap_01.object;
 
 
 import lombok.AllArgsConstructor;
