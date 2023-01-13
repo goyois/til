@@ -17,7 +17,6 @@ class Coffee {
         this.price = price;
     }
 }
-
 class Americano extends Coffee {
      public Americano() {
         super(4000);
