@@ -15,7 +15,6 @@ public class ObjectMethod {
 }
 
 class Method1 {
-
     void printHi() {
         System.out.println("하이");
     }
