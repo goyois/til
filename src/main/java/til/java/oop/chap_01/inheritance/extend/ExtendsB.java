@@ -1,4 +1,4 @@
-package til.java.oop.chap_01.inheritance;
+package til.java.oop.chap_01.inheritance.extend;
 
 public class ExtendsB extends ExtendsA{
     String companyName;
