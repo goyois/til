@@ -1,7 +1,5 @@
 package til.java.oop.chap_01.challenges;
 
-import lombok.Setter;
-
 import java.util.Scanner;
 
 public class GameV1 {
@@ -46,7 +44,6 @@ public class GameV1 {
         System.out.println("[체력] : 100");
         System.out.println("==============================================");
         System.out.println("----------------------------------------------");
-
 
 
 
