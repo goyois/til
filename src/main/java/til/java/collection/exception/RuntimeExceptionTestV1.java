@@ -1,6 +1,6 @@
 package til.java.collection.exception;
 
-public class RuntimeExceptionTest {
+public class RuntimeExceptionTestV1 {
     public static void main(String[] args) {
         System.out.println("[소문자 알파벳을 대문자로 출력하는 프로그램]");
         printMyName("abc");
