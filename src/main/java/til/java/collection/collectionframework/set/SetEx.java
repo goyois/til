@@ -2,7 +2,7 @@ package til.java.collection.collectionframework.set;
 
 import java.util.HashSet;
 
-public class Set {
+public class SetEx {
     public static void main(String[] args) {
         HashSet<String> human = new HashSet<String>();  //저장순서,중복 x
 

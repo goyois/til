@@ -11,7 +11,7 @@ import java.util.Set;
  *
  * 키는 중복저장 x / 값은 중복저장 o
  */
-public class MapEx {
+public class HashMapEx {
     public static void main(String[] args) {
         //      <key>   <value>
         HashMap<String, Integer> member = new HashMap<String, Integer>();

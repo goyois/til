@@ -2,6 +2,7 @@ package til.java.oop.chap.abstraction;
 
 abstract class Earth {
     public String tree;
+
     public abstract void color();
 }
 

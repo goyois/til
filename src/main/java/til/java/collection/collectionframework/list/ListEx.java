@@ -1,4 +1,4 @@
-package til.java.collection.collectionframework;
+package til.java.collection.collectionframework.list;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ import java.util.ArrayList;
  *  * 불연속적 존재
  *  * 만약 데이터 삭제 시 A,B,C가 있을 경우 B를 삭제하려고 할 때에는 A와 C를 연결해주어야함 추가 또한 동일한 동작방식이 적용됨
  */
-public class List {
+public class ListEx {
     //ex) ArrayList<타입 매개변수> 객체명 = new ArrayList<타입 매개변수>(초기 저장 용량);
     //ex) LinkedList<타입 매개변수> 객체명 = new LinkedList<타입 매개변수>(초기 저장 용량)
 

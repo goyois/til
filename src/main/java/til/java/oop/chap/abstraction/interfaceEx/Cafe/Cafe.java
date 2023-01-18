@@ -30,7 +30,3 @@ class CafeOwner {
         System.out.println("주문하신 " + customer.getOrder() + " 나왔습니다.");
     }
 }
-
-
-
-
