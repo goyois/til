@@ -19,6 +19,7 @@ public class ThrowExceptionTest {
 //throws 를 사용해 의도적 예외 만들기
 class ExceptionTest {
     public static void main(String[] args) {
+
         try {
             Exception exception = new Exception("외도된 예외");
             throw exception;

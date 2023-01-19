@@ -15,14 +15,13 @@ public class world {
             //순서를 바꿀 전략이기때문에 반복문을 중첩해서 쓴다.
             for (int j = i; j < 10; j++) {  //j에 i 값(0)을 주고 10이 더 클때까지 돌아가는데
                 if (min > array[j]) {  //만약 min(9999)가 i(0) = j(0) 배열의 0번째인 1보다 크면
-                    min = array[j]; // 배열의 0번째 인덱스의 값  / 1
+                   min = array[j]; // 배열의 0번째 인덱스의 값  / 1
                     index = j;  // i = j/(0)
-
                 }
             }
-            temp = array[i];  // temp 에 1이라는 값을 넣어주고
+            temp = array[i];  // temp 에 1이라는 값을 넣어주고 /  temp = 1
             array[i] = array[index]; //  array[i] 에 array[0] / 1을 넣어줌 / 현재 array[index]의 인덱스는 0임 = 1
-            array[index] = temp; //마지막으로 이제 array[0]의 자리에   temp 1이라는 값을 넣어준다
+            array[index] = temp; // 마지막으로 이제 array[0]의 자리에   temp 1이라는 값을 넣어준다
         }
         for (int i = 0; i <10; i++) {
             System.out.println(array[i]);
