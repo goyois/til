@@ -2,31 +2,22 @@ package til.java.backjoon;
 
 
 import java.io.*;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
-        int A = Integer.parseInt(st.nextToken());
-        int B = Integer.parseInt(st.nextToken());
-        int C = Integer.parseInt(st.nextToken());
+        Scanner sc = new Scanner(System.in);
 
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        int A = sc.nextInt();
+        String B = sc.next();
 
-        bw.write( ((A+B)%C) + "\n" );
-        bw.write( ((A%C + B%C)%C) + "\n" );
-        bw.write( ((A*B)%C) + "\n" );
-        bw.write( ((A%C * B%C)%C) + "\n" );
+        sc.close();
 
-        bw.flush();
-        bw.close();
+        System.out.println(A * (B.charAt(2) - '0'));
+        System.out.println(A * (B.charAt(1) - '0'));
+        System.out.println(A * (B.charAt(0) - '0'));
+        System.out.println(A * Integer.parseInt(B));
     }
 }
-/**
- * BufferReader
- * StringTokenizer
- * BufferWriter
- *
- */
