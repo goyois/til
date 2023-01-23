@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class Intermediate {
     public static void main(String[] args) {
@@ -60,6 +61,29 @@ public class Intermediate {
         animals.stream().sorted().forEach(System.out::println);  //기본 정렬(오름차순)
         System.out.println();
         animals.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println); //역순(내림차순)
+        System.out.println();
+
+
+        //skip 스트림의 일부 요소들을 건너뜀
+        IntStream int1 = IntStream.rangeClosed(1,10);
+        int1.skip(5).forEach(System.out::println);  //5 이상의 값만 추출하여 반환
+        System.out.println();
+
+
+        //limit 스트림의 일부를 자릅니다.
+        IntStream int2 = IntStream.rangeClosed(1,10); //5까지만(5 포함)
+        int2.limit(5).forEach(System.out::println);
+        System.out.println();
+
+
+        //peek  forEach와 마찬가지로 요소들을 순회하며 특정 작업을 수행 peek은 중간연산자로 여러번 연결하여 사용가능하나 forEach는 최종연산자로 1번만 사용가능
+        IntStream int3 = IntStream.of(1,2,3,4,5);
+
+        int sum = int3.filter(element -> element % 2 == 0) //2로 떨어지는 짝수값만 필터링함
+                .peek(System.out::println)
+                .sum();
+
+        System.out.println("합계 = " + sum);
 
 
 
