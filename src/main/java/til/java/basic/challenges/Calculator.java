@@ -18,20 +18,22 @@ public class Calculator {
         int num1 = Integer.parseInt(inputValue1);
         int num2 = Integer.parseInt(inputValue2);
         int num3 = 0;
+        String end = sc.nextLine();
 
-        if (op.equals("+")) {
-            num3 = num1 + num2;
-        } else if (op.equals("-")) {
-            num3 = num1 - num2;
-        } else if (op.equals("*")) {
-            num3 = num1 * num2;
-        } else if (op.equals("/")) {
-            num3 = num1 / num2;
-        } else if (op.equals("%")) {
-            num3 = num1 % num2;
-        } else {
-            System.out.println("입력값을 확인해주세요");
-        }
-        System.out.println(inputValue1 + op + inputValue2 + "=" + num3);
+
+            if (op.equals("+")) {
+                num3 = num1 + num2;
+            } else if (op.equals("-")) {
+                num3 = num1 - num2;
+            } else if (op.equals("*")) {
+                num3 = num1 * num2;
+            } else if (op.equals("/")) {
+                num3 = num1 / num2;
+            } else if (op.equals("%")) {
+                num3 = num1 % num2;
+            } else {
+                System.out.println("입력값을 확인해주세요");
+            }
+            System.out.println(inputValue1 + op + inputValue2 + "=" + num3);
     }
 }
