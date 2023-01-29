@@ -1,8 +1,8 @@
-package til.java.backjoon;
+package til.java.baekjoon;
 
 import java.util.Scanner;
 
-public class Back_01 {
+public class Baek_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

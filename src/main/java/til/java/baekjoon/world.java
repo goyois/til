@@ -1,6 +1,5 @@
-package til.java.backjoon;
+package til.java.baekjoon;
 
-import java.util.Scanner;
 //선택 정렬
 public class world {
     public static void main(String[] args) {

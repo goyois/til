@@ -1,4 +1,4 @@
-package til.java.backjoon;
+package til.java.baekjoon;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
