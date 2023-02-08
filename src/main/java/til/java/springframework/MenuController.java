@@ -10,6 +10,7 @@ public class MenuController {
         this.menuService = menuService;
     }
 
+
     public List<Menu> getMenuList() {
         return menuService.getMenuList();
     }

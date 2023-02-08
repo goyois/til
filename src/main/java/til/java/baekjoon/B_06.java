@@ -3,7 +3,7 @@ package til.java.baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Baek_06 {
+public class B_06 {
     public static void main(String[] args) throws IOException {
 
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));  //출력받기

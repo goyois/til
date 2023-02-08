@@ -3,7 +3,7 @@ package til.java.baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Baek_07 {
+public class B_07 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
