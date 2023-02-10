@@ -5,7 +5,7 @@ public class world {
     public static void main(String[] args) {
         int min = 0;
         int index = 0;
-        int temp = 0;  //min = 최소값, index 배열의 인덱스값,temp = 배열안에서 스워핑될 인덱스값을 넣을 보조변수
+        int temp = 0;  //min = 최소값, index 배열의 인덱스값,temp = 배열안에서 스워칭될 인덱스값을 넣을 보조변수
         int array[] = {1,10,5,8,7,6,4,3,2,9};  //순서가 유지되지않은 10크기의 배열 선언
 
         for (int i = 0; i < 10; i++) {  //10이 i보다 클 때까지
