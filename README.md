@@ -55,6 +55,12 @@
 
 <hr/>
 
+### Design Pettern
+
+- Bulider
+
+<hr/>
+
 ### 기타 알고리즘 
 
 - 백준
